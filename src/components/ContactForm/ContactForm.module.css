@@ -3,10 +3,11 @@
     flex-direction: column;
     gap: 30px;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     max-width: 500px;
+    align-items: center;
   }
   
   .formField {
@@ -14,6 +15,7 @@
     flex-direction: column;
     gap: 5px;
     height: 80px;
+    width: 500px;
   }
   
   .formLabel {
@@ -22,7 +24,9 @@
   }
   
   .btnSubmit {
-    padding: 10px 20px;
+    padding: 20px 10px;
+    width: 300px;
+    font-size: medium;
     background-color: #007bff;
     color: white;
     border: none;
